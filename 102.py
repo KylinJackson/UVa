@@ -3,7 +3,7 @@ import sys
 for line in sys.stdin:
     bottles = [int(x) for x in line.split()]
     bottle_num = sum(bottles)
-    left = []
+    left = list()
     left.append(bottles[0] + bottles[4] + bottles[8])  # BGC
     left.append(bottles[0] + bottles[5] + bottles[7])  # BCG
     left.append(bottles[1] + bottles[3] + bottles[8])  # GBC
