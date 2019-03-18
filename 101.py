@@ -2,7 +2,7 @@ import sys
 import copy
 
 n = int(input())
-x = []
+x = list()
 
 
 class Pile:
