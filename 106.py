@@ -10,9 +10,8 @@ a,b互素 a>b
 
 
 # f = open('out.txt', 'w')
-
-
 def gcd(x, y):
+    # 判断两个数是不是互质
     if x % y == 0:
         return y
     else:
